@@ -1,16 +1,39 @@
-# React + Vite
+# React Router Project 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern web application built using **React** and **Vite**, focusing on implementing client-side routing with **React Router Dom**.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+ **Framework:** [React](https://react.dev/)
+ **Build Tool:** [Vite](https://vitejs.dev/)
+ **Routing:** [React Router Dom](https://reactrouter.com/)
+ **Styling:** CSS / Tailwind CSS (Optional)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Getting Started
 
-## React Compiler
+Follow these steps to run the project locally:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 1. Clone the repository
+```bash
+git clone [https://github.com/khushisingh-22/React_Router.git](https://github.com/khushisingh-22/React_Router.git)
+cd React_Router
+2. Install dependencies
+Bash
+npm install
+3. Run the development server
+Bash
+npm run dev
+📍 Key Features
+Dynamic Routing: Seamless navigation without page reloads.
 
-## Expanding the ESLint configuration
+Nested Routes: Organized layout structures.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fast HMR: Powered by Vite for a lightning-fast development experience.
+
+📂 Project Structure
+Plaintext
+src/
+├── components/     # Reusable UI components
+├── pages/          # Page components (Home, About, Contact, etc.)
+├── App.jsx         # Route definitions
+└── main.jsx        # Entry point with BrowserRouter
+Made with ❤️ by Khushi Singh
